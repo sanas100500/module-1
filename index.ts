@@ -1,3 +1,3 @@
-export const getNumber = () => {
-  return 100
+export const getNumber = (one: number, two: number): number => {
+  return one + two
 }
